@@ -3,6 +3,7 @@
 #### Copy assignment
 
 ` int width;`
+
 ` width = 7;`
 
 Copy assignment is named such because it copies the value on the right-hand side of the _=operator_ to the variable on the left-hand side of the operator.
@@ -13,7 +14,9 @@ The _=operator_ is called the **assignment operator**.
 #### Initialization
 
 ` int width = 7; `
+
 ` int width( 7 ); `
+
 ` int width{ 7 }; `
 
 #### Copy initialization
@@ -39,7 +42,9 @@ To provide a more consistent initialization mechanism, there's **list initializa
 List initialization comes in three forms:
 
 ` int width{ 7 };    // direct list initialization (preferred)`
+
 ` int width = { 7 }; // copy list initialization`
+
 ` int width {};      // value initialization`
 
 Direct and copy list initialization function almost identically, but the direct form is generally preferred.
@@ -69,7 +74,9 @@ You may eventually find cases where you want to ignore this advice for a specifi
 You can initialize multiple variables defined on the same line:
 
 ` int a = 5, b = 6;   // copy initialization`
+
 ` int c( 1 ), d( 7 ); // direct initialization`
+
 ` int e{ 3 }, f{ 4 }; // list initialization `
 
 Initialization gives a variable an initial value at the point when it is created.
