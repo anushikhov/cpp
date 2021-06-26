@@ -36,6 +36,5 @@ _When working in an existing program, use the conventions of that program (even 
 * Avoid abbreviations. Although they reduce the time you need to write your code, they make your code harder to read. Even if the abbreviation is unambiguous, it takes the reader a moment to figure out what you meant.
 * A clarifying comment can go a long way.
 
-` // holds number of chars in a piece of text -- including whitespace and punctuation`
-
-` int numberOfChars;`
+`// holds number of chars in a piece of text -- including whitespace and punctuation`  
+`int numberOfChars;`
