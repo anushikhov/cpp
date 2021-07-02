@@ -23,7 +23,7 @@ When you give an object a value, the compiler and CPU take care of encoding your
 C++ comes with built-in support for many different data types. These are called **fundamental data type**, but are often informally called **basic types**, **primitive types**, or **built-in types**.
 
 Here is a list of the fundamental data types:
-![Fundamental data types](https://raw.githubusercontent.com/anushikhov/cpp/main/4_Fundamental_Data_Types/img/fundamental_data_types.png)
+![Fundamental data types](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/fundamental_data_types.png)
 
 C++ also supports a number of other more complex types, called _compound types_.
 
