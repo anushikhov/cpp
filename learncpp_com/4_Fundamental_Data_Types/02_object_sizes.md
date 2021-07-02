@@ -24,7 +24,7 @@ _Focus on writing maintainable code, and optimize only when and where the benefi
 
 **C++ only guarantees that each fundamental data type will have a minimum size.**
 
-![Data type minimum sizes](https://raw.githubusercontent.com/anushikhov/cpp/main/4_Fundamental_Data_Types/img/data_type_min_sizes.png)  
+![Data type minimum sizes](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/data_type_min_sizes.png)  
 
 
 **Best practice**
