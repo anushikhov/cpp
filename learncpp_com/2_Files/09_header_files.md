@@ -10,7 +10,7 @@ C++ code files (with a .cpp extension) are not the only files commonly seen in C
 
 Header files typically only contain function and variable declarations, not function and variable definitions (otherwise a violation of the _one definition rule_ could result), std::cout is forward declared in the iostream header, but defined as part of the C++ standard library, which is automatically linked into your program during the linker phase.
 
-!(iostream header file)[https://raw.githubusercontent.com/anushikhov/cpp/main/2_Files/img/header.png]
+![iostream header file](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/2_Files/img/header.png)  
 
 **Best practice**
 _Header files should generally not contain function and variable definitions, so as not to violate the one definition rule. An exception is made for specific constants._
