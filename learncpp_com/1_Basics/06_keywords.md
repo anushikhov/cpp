@@ -4,7 +4,7 @@ C++ reserves a set of 92 words (as of C++20) for its own use. These words are ca
 
 Here is a list of all the C++ keywords (through C++20):
 
-![C++ Reserved Keywords](https://raw.githubusercontent.com/anushikhov/cpp/main/1_Basics/img/keywords.png)
+![C++ Reserved Keywords](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/1_Basics/img/keywords.png)
 
 C++ also defines special identifiers: _override, final, import,_ and _module_. These have a specific meaning when used in certain contexts but are not reserved.
 
