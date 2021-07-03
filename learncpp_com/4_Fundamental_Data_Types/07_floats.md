@@ -6,7 +6,7 @@ There are three different floating point data types: **float**, **double**, and 
 
 **Floating point data types are always signed (can hold positive and negative values).**
 
-![Floating point sizes](https://raw.githubusercontent.anushikhov.com/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/float_sizes.png)
+![Floating point sizes](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/float_sizes.png)
 
 When using floating point literals, always include at least one decimal place (even if the deciaml is 0). This helps the compiler understand that the number is a floating point number and not an integer.
 
@@ -23,7 +23,7 @@ By default, std::cout will not print the fractional part of a number if the frac
 
 Assuming IEEE 754 representation:
 
-![Floating point ranges](https://raw.githubusercontent.anushikhov.com/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/float_ranges.png)
+![Floating point ranges](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/float_ranges.png)
 
 The 80-bit floating point type is a bit of a historical anomaly. On modern processors, it is typically implemented using 12 or 16 bytes (which is a more natural size for processors to handle).
 
