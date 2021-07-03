@@ -16,4 +16,12 @@ Sometimes we want to check if several things are true or false in sequence. We c
 
 If the condition is an expression that does not evaluate to a Boolean value, it is converted to a Boolean value: non-zero values get converted to Boolean true, and zero-values get converted to Boolean false.
 
+...
+You never need an if-statement of the form:
 
+` if (condition) `  
+`    return true; `  
+` else `  
+`    return false; `  
+
+This can be replaced by the single statment `return condition`.
