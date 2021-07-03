@@ -9,7 +9,7 @@ The char data type is an integral type, meaning the underlying value is stored a
 Character literals are always placed between single quotes.
 
 Here's a full table of ASCII characters:
-![ASCII characters](https://raw.githubusercontent.anushikhov.com/cpp/master/learn_cpp/4_Fundamental_Data_Types/img/ascii.png)
+![ASCII characters](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/4_Fundamental_Data_Types/img/ascii.png)
 
 Codes 0-31 are called the unprintable chars, and they're mostly used to do formatting and control printers. Most of these are obsolete now.
 
