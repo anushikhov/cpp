@@ -30,7 +30,7 @@ If you want to do integer exponentiation, you're better off using your own funct
 ` { `  
 &emsp;        ` std::int_fast64_t result{ 1 }; `  
 &emsp;        ` while (exp) `  
-&emsp;        ` { `
+&emsp;        ` { `  
 &emsp;              ` if (exp & 1) `  
 &emsp;                    ` result *= base; `  
 &emsp;              ` exp >>= 1; `  
