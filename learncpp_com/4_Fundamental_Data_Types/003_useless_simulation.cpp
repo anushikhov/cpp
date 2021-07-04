@@ -9,7 +9,7 @@
 
 #include <iostream>
 
-// gets height from user and returns it
+// Gets height from user and returns it
 double getTowerHeight()
 {
 	std::cout << "Enter the height of the tower in meters: ";
@@ -19,17 +19,17 @@ double getTowerHeight()
 	return towerHeight;
 }
 
-// calculates and returns ball height from the ground after given seconds
+// Calculates and returns ball height from the ground after given seconds
 double calculateBallHeight(double towerHeight, int seconds)
 {
 	constexpr double gravity = 9.8;
-	// using formulat: [ s = u * t + (a * t^2) / 2 ], here u(initial velocity) = 0
+	// Using the formula: [ s = u * t + (a * t^2) / 2 ], where u(initial velocity) = 0
 	double ballHeight = towerHeight - (gravity * seconds * seconds) / 2;
 	
 	return ballHeight;
 }
 
-// prints ball height every second
+// Prints ball height every second
 void printBallHeight(double ballHeight, int seconds)
 {
 	if(ballHeight > 0)
@@ -38,7 +38,7 @@ void printBallHeight(double ballHeight, int seconds)
 		std::cout << "At " << seconds << " seconds, the ball is on the ground.\n";
 }
 
-// calculates and prints ball height every second
+// Calculates and prints ball height every second
 void calculateAndPrintBallHeight(double towerHeight, int seconds)
 {
 	double ballHeight{ calculateBallHeight(towerHeight, seconds) };
