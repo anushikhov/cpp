@@ -62,7 +62,7 @@ For example, when initializing a constant variable:
 &emsp;&emsp;&emsp;` constexpr bool inBigClassroom { false }; `  
 &emsp;&emsp;&emsp;` constexpr int classSize { inBigClassroom ? 30 : 20 }; `  
 &emsp;&emsp;&emsp;` std::cout << "The class size is: " << classSize << '\n'; `<br/><br/>
-&emsp;&emsp;&emsp;` return 0; `
+&emsp;&emsp;&emsp;` return 0; `  
 ` } `  
 
 There is no satisfactory if/else statement for this. Much like how variables defined inside functions die at the end of the function, variables defined inside an if or else statement die at the end of the if or else statement.
