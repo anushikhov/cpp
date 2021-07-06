@@ -1,7 +1,8 @@
 # Bitwise operators
 
 C++ provides 6 bitwise operators for bit manipulation:
-![Bitwise operators](https://raw.githubuser.com/anushikhov/cpp/master/learn_cpp/6_Bitwise_Operators/img/bitwise_ops.png)  
+
+![Bitwise operators](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/6_Bit_Manipulation/img/bitwise_ops.png)  
 
 
 ## Bitwise left shift (<<) and bitwise right shift (>>) operators
