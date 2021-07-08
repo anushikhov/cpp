@@ -11,7 +11,7 @@ Pre-C++17, the following is probably the most common:
 1. Add all your constants inside the namespace (make sure they're constexpr)
 1. #include the header file wherever you need it 
 
-constants.h
+constants.h  
 ` #ifndef CONSTANTS_H `  
 ` #define CONSTANTS_H `  
 
@@ -44,7 +44,7 @@ One way to avoid these problems is by turning these constants into external vari
 
 We use const instead of constexpr in this method because constexpr variables can't be forward declared, even if they have external linkage.
 
-constants.cpp
+constants.cpp  
 ` #include "constants.h" `  
 
 ` namespace constants `  
@@ -55,7 +55,7 @@ constants.cpp
 &emsp;&emsp;&emsp;` extern const double gravity { 9.8 }; `  
 ` } `  
 
-constants.h
+constants.h  
 ` #ifndef CONSTANTS_H `  
 ` #define CONSTANTS_H `  
 
@@ -68,7 +68,7 @@ constants.h
 
 ` #endif `  
 
-main.cpp
+main.cpp  
 ` #include "constants.h" `  
 
 ` #include <iostream> `  
@@ -108,7 +108,7 @@ The linker will consolidate all inline definitions of a variable into a single v
 
 With this, we can go back to defining our globals in a header file without the downside of duplicated variables:
 
-constants.h
+constants.h  
 ` #ifndef CONSTANTS_H `  
 ` #define CONSTANTS_H `  
 
@@ -122,7 +122,7 @@ constants.h
 
 ` #endif `  
 
-main.cpp
+main.cpp  
 ` #include "constants.h" `  
 
 ` #include <iostream> `  
