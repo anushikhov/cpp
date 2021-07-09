@@ -17,7 +17,7 @@ int getInt()
 
 char getOp()
 {
-	std::cout << "Enter one of the following operators +, -, *, /: ";
+	std::cout << "Enter one of the following operators +, -, *, /, %: ";
 	char op{};
 	std::cin >> op;
 
@@ -36,6 +36,8 @@ int calculate(int x, int y, char op)
 			return x * y;
 		case'/':
 			return x / y;
+		case '%':
+			return x % y;
 		default:
 			{
 				std::cout << "Invalid operator.\n";
