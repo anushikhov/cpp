@@ -35,17 +35,17 @@ An identifier's linkage determines whether multiple declarations of an identifie
 &emsp;&emsp;&emsp; * user-defined type definitions (such as enums and classes) declared inside a block  
 
 * An identifier with internal linkage can be accessed anywhere within the file it is declared. This includes:  
-&emsp;&emsp;&emsp; * static global variables (initialized or uninitialized)
+&emsp;&emsp;&emsp; * static global variables (initialized or uninitialized)  
 &emsp;&emsp;&emsp; * static functions  
 &emsp;&emsp;&emsp; * const global variables  
 &emsp;&emsp;&emsp; * functions declared inside an unnamed namespace  
 &emsp;&emsp;&emsp; * user-defined type definitions (such as enums and classes) declared inside an unnamed namespace  
 * An identifier with external linkage can be accessed anywhere within the file it is declared, or other files (via a forward declaration). This includes:  
-&emsp;&emsp;&emsp;` * functions  
-&emsp;&emsp;&emsp;` * non-const global variables (initialized or uninitialized)  
-&emsp;&emsp;&emsp;` * extern const global variables  
-&emsp;&emsp;&emsp;` * inline const global variables  
-&emsp;&emsp;&emsp;` * user-defined type definitions (such as enums and classes) declared inside a namespace or in the global scope  
+&emsp;&emsp;&emsp; * functions   
+&emsp;&emsp;&emsp; * non-const global variables (initialized or uninitialized)  
+&emsp;&emsp;&emsp; * extern const global variables  
+&emsp;&emsp;&emsp; * inline const global variables  
+&emsp;&emsp;&emsp; * user-defined type definitions (such as enums and classes) declared inside a namespace or in the global scope  
 
 Identifiers with external linkage will generally cause a duplicate definition linker error if the definitions are compiled into more than one .cpp file (due to violating the one-definition rule). There are some exceptions to this rule (for types, templates, and inline functions and variables).
 
