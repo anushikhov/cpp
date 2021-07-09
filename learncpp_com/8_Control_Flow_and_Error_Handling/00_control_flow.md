@@ -10,4 +10,4 @@ When a control flow statement causes point of execution to change to a non-seque
 
 ## Categories of flow control statements
 
-![Flow control statements](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/8_Control_Flow_and_Error_Handling/img/flow_control_statements.png)
+![Flow control statements](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/8_Control_Flow_and_Error_Handling/img/control_flow_statements.png)
