@@ -15,10 +15,10 @@ When a variable is declared as static, it is created at the program start. Stati
 Just like we use "g_" to prefix global variables, it's common to use "s_" to prefix static (static duration) local variables.
 
 One of the most common uses for static duration local variables is for unique ID generators:
-
+  
 ` int generateID() `  
 ` { `  
-&emps;&emsp;&emsp;` static int s_itemID{ 0 }; `  
+&emsp;&emsp;&emsp;` static int s_itemID{ 0 }; `  
 &emsp;&emsp;&emsp;` return s_itemID++; `  
 ` } `  
 
