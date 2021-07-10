@@ -11,7 +11,7 @@ You can exit an infinite loop through a return statement, a break statement, an 
 It is common to see this kind of loop in web server applications that run continuously and service web requests.
 
 **Best practice**<br/>
-_Favor_ `while(true)` _for intentional loops._
+_Favor_ `while(true)` _for intentional infinite loops._
 
 ## Loop variables
 
