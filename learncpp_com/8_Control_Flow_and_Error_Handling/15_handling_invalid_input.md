@@ -25,11 +25,11 @@ The process of checking whether user input conforms to what the program is expec
 
 There are three basic ways to do input validation:
 
-* Inline (as the user types)
-&emsp;&emsp;&emsp; * Prevent the user from typing invalid input in the first place.  
-* Pose-entry (after the user types)
-&emsp;&emsp;&emsp; * Let the user enter whatever they want into a string, then validate whether the string is correct, and if so, covert the string to the final variable format.  
-&emsp;&emsp;&emsp; * Let the user enter whatever they want, let std::cin and operator>> try to extract it, and handle the error cases.
+* Inline (as the user types)   
+&emsp;&emsp;&emsp; * Prevent the user from typing invalid input in the first place.    
+* Pose-entry (after the user types)   
+&emsp;&emsp;&emsp; * Let the user enter whatever they want into a string, then validate whether the string is correct, and if so, covert the string to the final variable format.   
+&emsp;&emsp;&emsp; * Let the user enter whatever they want, let std::cin and operator>> try to extract it, and handle the error cases.    
 
 Some graphical user interfaces and advanced text interfaces will let you validate input as the user enters it (character by character). Generally speaking, the programmer provides a validation function that accepts the input the uas has entered so far and returns true if the input is valid, and false otherwise. This function is called every time the user presses a key. If the validation function returns true, they key the user just pressed is accepted. If the validation function returns false, the character the user just input is discarded (and not shown on the screen). Using this method, you can ensure that any input the user enters is guaranteed to be valid, because any invalid keystrokes are discovered and discarded immediately. std::cin does not support this style of validation.
 
@@ -90,7 +90,9 @@ This call would remove up to 100 characters.
 
 To ignore all characters up to the next '\n', we can pass ` std::numeric_limits<std::streamsize>::max() ` to ` std::cin.ignore() `. 
 
-` std::numeric_limits<std::streamsize>::max() ` returns the largest value that can be stored in a variable of type ` std::streamsize `. Passing this value to ` std::cin.ignore() ` causes it to disable the count check.
+` std::numeric_limits<std::streamsize>::max() ` returns the largest value that can be stored in a variable of type ` std::streamsize `. 
+
+Passing this value to ` std::cin.ignore() ` causes it to disable the count check.
 
 To ignore everything up to a and including the next '\n' character, we call:
 
