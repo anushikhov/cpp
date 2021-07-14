@@ -24,7 +24,7 @@ Because scope is a property of an identifier, type alias identifiers follow the 
 
 If you need to use one or more type alias across multiple files, they can be defined in a header file and #included into any code file that needs to use the definition:
 
-mytypes.h
+mytypes.h  
 ` #ifndef MYTYPES `  
 ` #define MYTYPES `  
 
