@@ -26,7 +26,7 @@ A **narrowing conversion** is a numeric conversion that may result in the loss o
 
 Your compiler will usually issue a warning (or an error) when it determines that an implicit narrowing conversion is required.
 
-**Compilers will often not warn when converting a signed int to an unsigned int, or vice-versa, even though these are narrowing conversion. Be extra careful of inadvertent conversions between these types (particularly when passing an argument to a function taking a parameter of the opposite sign).**
+**Compilers will often not warn when converting a signed int to an unsigned int, or vice-versa, even though these are narrowing conversions. Be extra careful of inadvertent conversions between these types (particularly when passing an argument to a function taking a parameter of the opposite sign).**
 
 **Best practice**<br/>
 _Avoid narrowing conversions whenever possible. If you do need to perform one, use_ `static_cast` _to make it an explicit conversion._
