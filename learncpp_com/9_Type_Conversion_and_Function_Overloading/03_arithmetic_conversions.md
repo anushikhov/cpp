@@ -69,7 +69,7 @@ The prioritization hierarchy can cause some problematic issues when mixing signe
 
 ` int main() `  
 ` { `  
-&emsp;&emsp;&emsp;` std::cout << typeif(5u-10).name() << ' ' << 5u - 10; `  
+&emsp;&emsp;&emsp;` std::cout << typeid(5u-10).name() << ' ' << 5u - 10; `  
 
 &emsp;&emsp;&emsp;` std::cout << std::boolalpha << (-3 < 5u); `  
 
