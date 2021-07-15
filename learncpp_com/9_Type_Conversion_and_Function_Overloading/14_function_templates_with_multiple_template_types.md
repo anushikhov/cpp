@@ -29,15 +29,15 @@ The best way to solve this problem is to rewrite our function template in such a
 
 ` template <typename T, typename U> `  
 ` T max(T x, U y) `  
-` { `  
-&emps;&emsp;&emsp;` return (x > y) ? x : y; `  
+` { `   
+&emsp;&emsp;&emsp;` return (x > y) ? x : y; `  
 ` } `  
 
 ` int main() `  
 ` { `   
 &emsp;&emsp;&emsp;` std::cout << max(2, 3.5) << '\n'; `  
 
-&emps;&emsp;&emsp;` return 0; `  
+&emsp;&emsp;&emsp;` return 0; `  
 ` } `  
 
 Using the usual arithmetic rules `double` takes precedence over `int`, so our conditional operator will return a a`double`. But our function is defined as returning a T -- in cases where T resolves to an `int`, our `double` return value will undergo a narrowing conversion to an `int`, which will produce a warning (and possible loss of data).
