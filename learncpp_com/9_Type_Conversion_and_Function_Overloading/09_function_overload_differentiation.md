@@ -4,7 +4,7 @@ Overloaded functions tha are not properly differentiated will cause the compiler
 
 To differentiate an overload function, ensure each overloaded function has a different set (number and/or type) of parameters.
 
-![Overload differentiation](https://raw.githubusercontent.com/anushikhov/cpp/master/learcpp_com/9_Type_Conversion_and_Function_Overloading/img/overload_differentiation.png)  
+![Overload differentiation](https://raw.githubusercontent.com/anushikhov/cpp/master/learncpp_com/9_Type_Conversion_and_Function_Overloading/img/overload_differentiation.png)  
 
 A function's return type is not used to differentiate overloaded functions.
 
