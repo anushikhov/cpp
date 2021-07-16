@@ -7,7 +7,7 @@ T add(T x, T y)
 	return x + y;
 }
 
-// Write a function template named mult that allows the user to multiple one value of any type and an integer.
+// Write a function template named mult that allows the user to multiply one value of any type and an integer.
 template <typename T>
 T mult(T x, int y)
 {
