@@ -112,7 +112,7 @@ Remember that an array of length N has array elements 0 through N-1.
 
 **C++ does not do any checking to make sure that your indices are valid for the length of your array.**
 
-When assign value to an element outside of an array length, you will get undefined behavior -- For example, this could overwrite the value of another variable, or cause your program to crash.
+When assigning a value to an element outside of the array length, you will get undefined behavior -- For example, this could overwrite the value of another variable, or cause your program to crash.
 
 Although it happens less often, C++ will also let you use a negative index, with similarly undesirable results.
 
