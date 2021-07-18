@@ -1,4 +1,5 @@
-// Modify the program so that instead of having maxScore hold the largest score directly, a variable named maxIndex hold the index of the largest score.
+// Modify the program so that instead of having maxScore hold the largest score directly, 
+// a variable named maxIndex holds the index of the largest score.
 
 #include <iostream>
 #include <iterator>
