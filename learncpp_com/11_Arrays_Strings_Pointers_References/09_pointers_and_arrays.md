@@ -144,7 +144,7 @@ The fact that arrays decay into pointers when passed to a function explains the 
 
 When `changeArray()` is called, array decays into a pointer, and the value of that pointer (the memory address of the first element of the array) is copied into the `ptr` parameter of function `changeArray()`. Although the value in `ptr` is a copy of the address of the array, `ptr` still points at the actual array (not a copy). Consequently, when indirection through `ptr` is performed, the element accessed is the actual first element of the array.
 
-## Arrays in structs and classes don'e decay
+## Arrays in structs and classes don't decay
 
 Arrays that are part of structs or classes do not decay when the whole struct or class is passed to a function. This yields a useful way to prevent decay if desired. 
 
