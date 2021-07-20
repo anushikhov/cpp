@@ -99,3 +99,17 @@ Because counting elements is common, the algorithms library offers `std::count_i
 We're calculating `name + namelength`, not `name + namelength - 1`, because we don't want the last element, but the pseudo-element one past the last.
 
 Calculating begin and end of an array like this works for all algorithms that need a begin and end argument.
+
+...   
+
+The subscript operator ([]) is identical to an addition and an indirection, the operands can be swapped. 
+
+` arr[2] `  
+` // same as `  
+` *(arr + 2) `  
+` // same as `  
+` *(2 + arr) `  
+` // same as `  
+` 2[arr] `  
+
+It's an interesting observation, but don't use this syntax in real code. This only works for the built-in subscript operator. 
