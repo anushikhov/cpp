@@ -43,7 +43,7 @@ int main()
 
 		std::cout << '\n';
 
-		if(track == 1)
+		if(track == 0)
 		{
 			std::cout << "\nEarly termination on iteration: " << ++iteration << '\n';
 
