@@ -22,11 +22,13 @@ int main()
 	for(int iteration{ 0 }; iteration < length - 1; ++iteration)
 	{
 		int track{ 0 };
+
 		for(int currentIndex{ 0 }; currentIndex < length - iteration; ++currentIndex)
 		{
 			if(array[currentIndex] > array[currentIndex + 1])
 			{
 				std::swap(array[currentIndex], array[currentIndex + 1]);
+
 				++track;
 			}
 		}
@@ -44,8 +46,10 @@ int main()
 		if(track == 1)
 		{
 			std::cout << "\nEarly termination on iteration: " << ++iteration << '\n';
+
 			break;
 		}
 	}
+
 	return 0;
 }
