@@ -72,7 +72,7 @@ Here is the sequence of steps that takes place when a function is called:
 1. The program encounters a function call.  
 1. A stack frame is constructed and pushed on the stack. The stack frame consists of:  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; * The address of the instruction beyond the function call (called the **return address**).  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; This is how the CPU remembers where to return to after the called function exits.   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This is how the CPU remembers where to return to after the called function exits.   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; * All function arguments.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; * Memory for any local variables.  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; * Saved copies of any registers modified by the function that need to be restored when the function returns.  
